@@ -1,12 +1,12 @@
 .DS_Store
 
-application/cache/*
-!application/cache/index.html
+# application/cache/*
+# !application/cache/index.html
 
-application/logs/*
-!application/logs/index.html
+# application/logs/*
+# !application/logs/index.html
 
-!application/*/.htaccess
+# !application/*/.htaccess
 
 composer.lock
 
@@ -27,8 +27,8 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
-/tests/tests/
-/tests/results/
+# /tests/tests/
+# /tests/results/
 
 /*.zip
 /*.rar
